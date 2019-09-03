@@ -1,0 +1,144 @@
+# joint_limits.yaml allows the dynamics properties specified in the URDF to be overwritten or augmented as needed
+# Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
+# Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
+joint_limits:
+  LAnklePitch:
+    has_velocity_limits: true
+    max_velocity: 4.9
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LAnkleRoll:
+    has_velocity_limits: true
+    max_velocity: 3.2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LElbj:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LForearmPlate:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LHipLat:
+    has_velocity_limits: true
+    max_velocity: 7.4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LHipSag:
+    has_velocity_limits: true
+    max_velocity: 7.4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LHipYaw:
+    has_velocity_limits: true
+    max_velocity: 4.6
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LKneePitch:
+    has_velocity_limits: true
+    max_velocity: 5.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LShLat:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LShSag:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LShYaw:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LWrj1:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  LWrj2:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RAnklePitch:
+    has_velocity_limits: true
+    max_velocity: 4.9
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RAnkleRoll:
+    has_velocity_limits: true
+    max_velocity: 3.2
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RElbj:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RForearmPlate:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RHipLat:
+    has_velocity_limits: true
+    max_velocity: 7.4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RHipSag:
+    has_velocity_limits: true
+    max_velocity: 7.4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RHipYaw:
+    has_velocity_limits: true
+    max_velocity: 4.9
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RKneePitch:
+    has_velocity_limits: true
+    max_velocity: 5.5
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RShLat:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RShSag:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RShYaw:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RWrj1:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  RWrj2:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0
+  WaistLat:
+    has_velocity_limits: true
+    max_velocity: 7.4
+    has_acceleration_limits: false
+    max_acceleration: 0
+  WaistYaw:
+    has_velocity_limits: true
+    max_velocity: 6.283
+    has_acceleration_limits: false
+    max_acceleration: 0

@@ -1,0 +1,50 @@
+cogimon:
+# MoveIt-specific simulation settings
+  moveit_sim_hw_interface:
+    joint_model_group: controllers_initial_group_
+    joint_model_group_pose: controllers_initial_pose_
+# Settings for ros_control control loop
+  generic_hw_control_loop:
+    loop_hz: 300
+    cycle_time_error_threshold: 0.01
+# Settings for ros_control hardware interface
+  hardware_interface:
+    joints:
+      - floating_base
+      - reference
+      - LHipLat
+      - LHipSag
+      - LHipYaw
+      - LKneePitch
+      - LAnklePitch
+      - LAnkleRoll
+      - RHipLat
+      - RHipSag
+      - RHipYaw
+      - RKneePitch
+      - RAnklePitch
+      - RAnkleRoll
+      - WaistLat
+      - WaistYaw
+      - LShSag
+      - LShLat
+      - LShYaw
+      - LElbj
+      - LForearmPlate
+      - LWrj1
+      - LWrj2
+      - RShSag
+      - RShLat
+      - RShYaw
+      - RElbj
+      - RForearmPlate
+      - RWrj1
+      - RWrj2
+    sim_control_mode: 1  # 0: position, 1: velocity
+# Publish all joint states
+# Creates the /joint_states topic necessary in ROS
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+  controller_list:
+    []

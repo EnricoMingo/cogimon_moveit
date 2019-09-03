@@ -1,0 +1,41 @@
+controller_list:
+  - name: fake_l_sole_controller
+    joints:
+      - floating_base
+      - reference
+      - LHipLat
+      - LHipSag
+      - LHipYaw
+      - LKneePitch
+      - LAnklePitch
+      - LAnkleRoll
+  - name: fake_r_sole_controller
+    joints:
+      - RHipLat
+      - RHipSag
+      - RHipYaw
+      - RKneePitch
+      - RAnklePitch
+      - RAnkleRoll
+  - name: fake_r_arm_controller
+    joints:
+      - WaistLat
+      - WaistYaw
+      - RShSag
+      - RShLat
+      - RShYaw
+      - RElbj
+      - RForearmPlate
+      - RWrj1
+      - RWrj2
+  - name: fake_l_arm_controller
+    joints:
+      - WaistLat
+      - WaistYaw
+      - LShSag
+      - LShLat
+      - LShYaw
+      - LElbj
+      - LForearmPlate
+      - LWrj1
+      - LWrj2
